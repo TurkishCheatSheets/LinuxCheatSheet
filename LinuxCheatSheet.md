@@ -32,7 +32,7 @@ $ cd
 ```bash
 $ cmp
    # Herhangi iki tür dosyayı karşılaştırır ve sonucu standart çıktıya yazar.
-   # Eğer dosyalar aynıysa öntanımlı olarak cmp komutu birşey yapmaz.
+   # Eğer dosyalar aynıysa öntanımlı olarak cmp komutu bir şey yapmaz.
    # Eğer farklıysalar, ilk farkın oluştuğu bayt ve satır sayısı gösterilir.
 ```
 
@@ -63,7 +63,7 @@ $ ls -l
 
 ```bash
 $ ls -la
-   # dosyalar hakkında bilgi listeler gizli dosyalarda dahil
+   # dosyalar hakkında bilgi listeler (gizli dosyalar da dahil)
 ```
 
 ```bash
@@ -73,7 +73,7 @@ $ mkdir
 
 ```bash
 $ mv
-   # belirtilen dosyayı yeniden adlandırır yada taşımaya yarar
+   # belirtilen dosyayı yeniden adlandırır ya da taşımaya yarar
 ```
 
 ```bash
@@ -83,7 +83,7 @@ $ nl
 
 ```bash
 $ touch filename
-   # yeni bir dosya oluşturma
+   # yeni bir dosya oluşturmayı sağlar.
 ```
 
 ```bash
@@ -194,19 +194,19 @@ $ chgrp
 
 ```bash
 $ groups
-   # grup üyeliklerinde değişiklik
+   # grup üyeliklerinde değişiklik yapmaya yarar.
 ```
 
 ## Arama Komutları
 
 ```bash
 $ grep [pattern] dosya
-   # belirtilen pattern göre dosyalarda arama yapar.
+   # belirtilen patterne göre dosyalarda arama yapar.
 ```
 
 ```bash
 $ grep -r [pattern] klasör
-   # özyenileme yöntemi ile dizin içerisinde arama yapar
+   # özyineleme yöntemi ile dizin içerisinde arama yapar
 ```
 
 ```bash
@@ -221,7 +221,7 @@ $ locate dosya
 
 ```bash
 $ xargs
-   # argüman listesi oluşturmaya yarar.Oluşturulan bu listeye görede başka komutlar tetikler
+   # argüman listesi oluşturmaya yarar.Oluşturulan bu listeye göre de başka komutlar tetikler
 ```
 
 ## Sıkıştırma Komutları
